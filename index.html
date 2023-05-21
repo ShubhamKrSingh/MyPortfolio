@@ -65,6 +65,9 @@
         .purple{
             color: rgb(226, 43, 217);
         }
+        #element{
+            color: rgb(226, 43, 217);
+        }
 
 
     </style>
@@ -90,14 +93,21 @@
         <section class="firstSection">
             <div class="leftSection">
                 Hi, I am <span class="purple">Shubham Singh</span>
-                <div>and I am a passionate Web Developer</div>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
             </div>
             <div class="rightSection">
                 <img src="./bg.png" alt="">
             </div>
         </section>
     </main>
-
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Software Devloper','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
 </body>
 
 </html>
