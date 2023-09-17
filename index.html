@@ -72,6 +72,14 @@
             max-width: 80vw;
             margin: auto;
         }
+        .secondSection h1 {
+            font-size: 1.9rem;
+            margin: auto;
+            height: 80vh;
+        }
+        .text-gray{
+            color: gray;
+        }
 
 
     </style>
@@ -104,13 +112,19 @@
                 <img src="./bg.png" alt="">
             </div>
         </section>
-        <section class="secondSection">Past Experiences</section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far
+                <h1>Work Experience</h1>
+            </span>
+        </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Software Devloper','Web Designer'],
+          strings: ['Web Developer', 'Software Devloper','Web Designer'],            
           typeSpeed: 50,
+          loop: true
         });
       </script>
 </body>
