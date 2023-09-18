@@ -87,6 +87,10 @@ nav ul li a:hover{
     color: rgb(226, 43, 217);
         
 }
+
+.text-gray{
+    color: gray;
+}
         
 #element{
             
@@ -98,17 +102,57 @@ nav ul li a:hover{
             
     max-width: 80vw;
     margin: auto;
-        
-}
-        
-.secondSection h1 {
-            
-    font-size: 1.9rem;
-    margin: auto;
     height: 80vh;
         
 }
 
-.text-gray{
-            color: gray;
+hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 40px;
+}
+        
+.secondSection h1 {
+    
+    font-size: 1.9rem;
+        
+}
+
+.secondSection .box {
+
+    background: white;
+    width: 185vh;
+    height: 2px;
+    margin: 40px 0;
+    display: flex;
+
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 110px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    color: gray;
+    top: 86px;
+    width: 150px;
+    font-size: 10px;
 }
