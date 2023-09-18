@@ -74,6 +74,19 @@ nav ul li a:hover{
     font-size: 2rem;
 
 }
+.leftSection .buttons {
+    padding: 12px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background-color: #1e2167;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size: 20;
+    cursor: pointer;
+}
 
 .rightSection img{
 
@@ -110,7 +123,7 @@ hr{
     border: 0;
     background: #9c97f1;
     height: 1.2px;
-    margin: 60px 40px;
+    margin: 80px 40px;
 }
         
 .secondSection h1 {
@@ -158,10 +171,35 @@ hr{
 }
 
 footer {
-    background-color: #e429be;
-    height: 250px;
+    background-color: #0e0e1a;
 }
 
 .footer {
     display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+.footer > div {
+    width: 230px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+footer ul li .subscribe {
+    margin: 12px 0;
+    padding: 12px;
+    background-color: #e6348a;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size: 20;
+    cursor: pointer;
 }
