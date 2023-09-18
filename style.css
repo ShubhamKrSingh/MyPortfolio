@@ -122,7 +122,7 @@ hr{
 .secondSection .box {
 
     background: white;
-    width: 185vh;
+    width: 155vh;
     height: 2px;
     margin: 40px 0;
     display: flex;
@@ -155,4 +155,13 @@ hr{
     top: 86px;
     width: 150px;
     font-size: 10px;
+}
+
+footer {
+    background-color: #e429be;
+    height: 250px;
+}
+
+.footer {
+    display: flex;
 }
