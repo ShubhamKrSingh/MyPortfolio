@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="rightSection">
-                <img src="./bg.png" alt="">
+                <img src="../assets/bg.png" alt="">
             </div>
         </section>
         <hr>
@@ -52,7 +52,7 @@
 
             <div class="box">
                 <div class="vertical">
-                    <img class="image-top" src="java developer.png" alt="">
+                    <img class="image-top" src="../assets/java developer.png" alt="">
                     <div class="vertical-title">
                         Java Developer (2020-2023)
                     </div>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class="image-top" src="devloper.png" alt="">
+                    <img class="image-top" src="../assets/devloper.png" alt="">
                     <div class="vertical-title">
                         Web Developer (2022-2023)
                     </div>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class="image-top" src="devloper.png" alt="">
+                    <img class="image-top" src="../assets/devloper.png" alt="">
                     <div class="vertical-title">
                         Full Stack Developer (2022-2023)
                     </div>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class="image-top" src="android developer.png" alt="">
+                    <img class="image-top" src="../assets/android developer.png" alt="">
                     <div class="vertical-title">
                         Android Developer (2022-2023)
                     </div>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class="image-top" src="ios developer.png" alt="">
+                    <img class="image-top" src="../assets/ios developer.png" alt="">
                     <div class="vertical-title">
                         iOS Developer (2022-2023)
                     </div>
@@ -97,7 +97,31 @@
                     </div>
                 </div>
             </div>
-
+        </section>
+        <section class="third-section">
+            <div class="contact-container">
+                <div class="contact-image">
+                    <h2>Contact us</h2>
+                    <img src="./assets/contact-us.png" alt="Contact Image" style="max-width: 100%;">
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/meqbzrzw" method="POST">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" required>
+                        
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -134,6 +158,15 @@
             Copyright &#169; shubhamsportfolio.com | All rights reserved
         </div>
     </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Software Devloper','Web Designer','UI Designer'],            
+        typeSpeed: 60,
+        loop: true
+        });
+    </script>
 
 </body>
 </html>
