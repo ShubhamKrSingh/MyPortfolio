@@ -20,25 +20,30 @@
             <div class="left">Shubham Singh</div>
             <div class="right">
                 <ul>
-                    <li> <a href=""> Home </a></li>
-                    <li> <a href=""> Services </a></li>
-                    <li> <a href=""> Projects </a></li>
-                    <li> <a href=""> About </a></li>
-                    <li> <a href=""> Contact Me </a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="firstSection">
+        <section class="firstSection" id="home">
             <div class="leftSection">
                 Hi, I am <span class="purple">Shubham Singh</span>
                 <div>and I am a passionate</div>
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn">Download Resume</button>
-                    <button class="btn">Visit Github</button>
+                    <button class="btn">
+                        <a href="./assets/resume.pdf" download="Shubham_Singh_CV.pdf" class="btn download-cv-btn">Download Resume</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/ShubhamKrSingh" class="btn download-cv-btn">Visit Github</a>
+
+                    </button>
                 </div>
             </div>
             <div class="rightSection">
@@ -46,7 +51,7 @@
             </div>
         </section>
         <hr>
-        <section class="secondSection">
+        <section class="secondSection" id="services">
             <span class="text-gray">What I have done so far </span>
             <h1>Work Experience</h1>
 
@@ -98,7 +103,7 @@
                 </div>
             </div>
         </section>
-        <section class="third-section">
+        <section class="third-section" id="contact">
             <div class="contact-container">
                 <div class="contact-image">
                     <h2>Contact us</h2>
