@@ -421,3 +421,10 @@ nav ul li a:hover{
   
   }
   
+
+  @media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
