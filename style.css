@@ -131,7 +131,7 @@ nav ul li a:hover{
     margin-left: 40px;
 }
         
-.secondSection h1 {
+/* .secondSection h1 {
 
     margin-top: 20px;
     margin-bottom: 50px;
@@ -175,7 +175,7 @@ nav ul li a:hover{
     top: 86px;
     width: 150px;
     font-size: 10px;
-}
+} */
 
 .third-section {
     margin-top: 150px;
@@ -302,7 +302,7 @@ nav ul li a:hover{
     font-weight: 300;
   }
   
-.wave {
+/* .wave {
     position: absolute;
     top: -100px;
     left: 0;
@@ -310,7 +310,17 @@ nav ul li a:hover{
     height: 100px;
     background: url("https://i.ibb.co/wQZVxxk/wave.png");
     background-size: 1000px 100px;
-  }
+  } */
+
+  .wave {
+    position: fixed; /* Change to fixed */
+    bottom: 0; /* Position it at the bottom of the screen */
+    left: 0; /* Cover the full width of the screen */
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+}
   
 .wave#wave1 {
     z-index: 1000;
@@ -358,3 +368,125 @@ nav ul li a:hover{
     }
   }
  
+
+
+  .project-container {
+    width: 20.875rem;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+
+  .projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+  .projects-container {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .project-container {
+    text-align: center;
+    padding: 1rem;
+    margin: 20px;
+  }
+
+  .project-container p {
+    padding: 0.4rem;
+  }
+  
+  .project-title {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-details {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+
+
+
+  /* Your existing CSS code goes here */
+
+/* Add media queries for responsive design */
+@media (max-width: 1200px) {
+    /* Adjust styles for screens with a maximum width of 1200px */
+    body {
+      font-size: 16px; /* Change font size or adjust other styles as needed */
+    }
+  
+    .project-container {
+      width: 100%; /* Make sure the content adapts to the screen width */
+    }
+  
+    /* Add more responsive styles as needed */
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (e.g., tablets) */
+    body {
+      font-size: 14px; /* Further reduce font size or adjust other styles as needed */
+    }
+  
+    /* Add more responsive styles as needed */
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px (e.g., mobile devices) */
+    body {
+      font-size: 12px; /* Further reduce font size or adjust other styles as needed */
+    }
+  
+    /* Add more responsive styles as needed */
+  }
+  
