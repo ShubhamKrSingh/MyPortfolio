@@ -87,6 +87,24 @@ nav ul li a:hover{
 }
 
 
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  /* ... existing styles ... */
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+}
+
+
 
 .firstSection{
 
