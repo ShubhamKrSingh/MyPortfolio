@@ -51,61 +51,6 @@ nav ul li a:hover{
 }
 
 
-/* Add this to your existing styles.css after your current styles */
-/* Media Query for Mobile Devices */
-@media only screen and (max-width: 600px) {
-  nav {
-    height: auto; /* Adjust height for mobile devices */
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: flex-start; /* Align items to the start on small screens */
-  }
-
-  .menu-toggle {
-    display: block;
-    cursor: pointer;
-    color: #fff;
-    font-size: 1.2em;
-    margin: 10px; /* Add some margin for spacing */
-  }
-
-  nav ul {
-    display: none; /* Hide the navigation links by default on small screens */
-    width: 100%;
-    text-align: center;
-    background-color: rgb(18, 35, 111); /* Match the navigation background color */
-  }
-
-  nav ul.show {
-    display: flex; /* Show the navigation links when the menu is open */
-    flex-direction: column; /* Stack the links vertically */
-  }
-
-  nav ul li {
-    margin: 0;
-    padding: 15px 0; /* Add padding to the links for spacing */
-  }
-}
-
-
-/* Media Query for Mobile Devices */
-@media only screen and (max-width: 600px) {
-  /* ... existing styles ... */
-
-  .menu-toggle {
-    display: block;
-  }
-
-  nav ul {
-    display: none;
-  }
-
-  nav ul.show {
-    display: flex;
-  }
-}
-
-
-
 .firstSection{
 
     display: flex;
